@@ -57,7 +57,7 @@ const Contact = () => {
             htmlFor='name'
             className='block font-semibold  text-lg  md:text-xl text-[#E55604]'
           >
-            Name
+            Name <sup className='text-red-500'>*</sup>
           </label>
           <div className='mt-1'>
             <div className='flex rounded-md shadow-sm ring-1 ring-inset ring-[#B4B4B3] focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md'>
@@ -81,7 +81,7 @@ const Contact = () => {
             htmlFor='email'
             className='block font-semibold  text-lg  md:text-xl text-[#E55604]'
           >
-            Email
+            Email <sup className='text-red-500'>*</sup>
           </label>
           <div className='mt-1'>
             <div className='flex rounded-md shadow-sm ring-1 ring-inset ring-[#B4B4B3] focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md'>
@@ -106,7 +106,7 @@ const Contact = () => {
           htmlFor='message'
           className='block font-semibold  text-lg  md:text-xl text-[#E55604]'
         >
-          Your Message
+          Your Message <sup className='text-red-500'>*</sup>
         </label>
         <div className='mt-1'>
           <textarea
