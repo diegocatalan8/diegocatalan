@@ -25,7 +25,7 @@ const ProjectCard = ({info}) => {
 
           <section className='flex flex-row p-1 w-full mt-2'>
             {info.tech.map((item)=>(
-                <Tooltip className='mr-2' text={item.nameIcon}>
+                <Tooltip key={item.icon} className='mr-2' text={item.nameIcon}>
                     <Icon name={item.icon} className={`${item.color} text-[30px]`} />
                 </Tooltip>
             ))}

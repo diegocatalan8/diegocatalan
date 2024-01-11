@@ -8,6 +8,7 @@ const Projects = () => {
 
   const projects = [
     {
+      id:1,
       className: '',
       alt: 'Bistro POS',
       name: 'Bistro POS',
@@ -24,6 +25,7 @@ const Projects = () => {
 
     {
 
+      id:2,
       className: 'mt-8 md:mt-0',
       alt: 'CLOi-GT',
       name: 'CLOi-GT',
@@ -46,7 +48,7 @@ const Projects = () => {
       <div className='mt-2 w-full flex flex-row flex-wrap justify-center md:justify-between'>
         {
           projects.map((item)=>(
-              <ProjectCard info={item}/>
+              <ProjectCard key={item.id} info={item}/>
           ))
         }
       </div>
