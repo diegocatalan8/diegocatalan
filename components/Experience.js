@@ -4,6 +4,7 @@ import CHILLTEPE from '@/public/CHILLTEPE.jpeg';
 import Modal from './Modal';
 import ProfessionalCard from './ProfessionalCard';
 import SectionTitle from './SectionTitle';
+import { Dialog } from '@headlessui/react'
 
 const Experience = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -33,7 +34,26 @@ const Experience = () => {
       <ProfessionalCard className={'mt-2'} image={CHILLTEPE} alt={'CHILLTEPE'} title='Chilltepe S.A.' subtitle='Frontend Developer' year='Dic. 2021 - Nov. 2023' onClickButton={openModal}/> 
         
 
-      <Modal closeModal={closeModal} isModalOpen={isModalOpen}/>
+      <Modal closeModal={closeModal} isModalOpen={isModalOpen}>
+          <Dialog.Title as="h3" className="my-8 text-xl text-center font-semibold leading-6 text-[#26577C]">
+          Frontend Developer At <span className='text-[#E55604]'>Chilltepe S.A.</span>
+          </Dialog.Title>
+          <div className="mt-2">
+            <ol className='w-full list-disc  text-left'>
+                <li className='mb-2'>
+                Led front-end development using technologies such as HTML5, CSS3, Javascript, React.js,
+                Tailwind and Git, achieving visually appealing and high-performance web interfaces.
+                </li>
+                <li className='mb-2'>
+                Creating robust, scalable, and maintainable components in React.js, increasing development efficiency by 20%.
+                </li>
+                <li className='mb-2'>
+                Identifying and resolving issues in the software, optimizing performance by 20%.
+                </li>
+                
+            </ol>
+      </div>
+      </Modal>
      
     </div>
   );

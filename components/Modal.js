@@ -3,7 +3,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { IoMdClose } from "react-icons/io";
 
 
- const Modal =({closeModal, isModalOpen = false})=> {
+ const Modal =({closeModal, isModalOpen = false, children})=> {
   
 
   
@@ -42,32 +42,7 @@ import { IoMdClose } from "react-icons/io";
                     
                     <div className="relative px-6 py-8 mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
                       <button onClick={closeModal} className='absolute top-0 right-0'> <IoMdClose className=' text-[30px]  cursor-pointer'/> </button>
-                      <Dialog.Title as="h3" className="my-8 text-xl text-center font-semibold leading-6 text-[#26577C]">
-                      Frontend Developer <span className='text-[#E55604]'>At Chilltepe S.A.</span>
-                      </Dialog.Title>
-                      <div className="mt-2">
-                        <ol className='w-full list-disc  text-left'>
-                            <li className='mb-2'>
-                             Creating robust, scalable, and maintainable components in React.js.
-                            </li>
-                            <li className='mb-2'>
-                            Working closely with the development team to translate UI prototypes into functional software.
-                            </li>
-                            <li className='mb-2'>
-                             Reviewing code and providing constructive feedback to enhance the quality of the code.
-                            </li>
-                            <li className='mb-2'>
-                             Identifying and resolving issues in the software.
-                            </li>
-                            <li className='mb-2'>
-                             Coordinating efficient Git management by implementing branching and merging strategies that enhanced team collaboration.
-                            </li>
-                            <li >
-                             Actively collaborating in a Scrum environment, ensuring a seamless transition between sprints and effective implementation of product features.
-                            </li>
-                            
-                        </ol>
-                      </div>
+                      {children}
                     </div>
                   </div>
                 </div>
