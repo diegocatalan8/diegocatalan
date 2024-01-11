@@ -55,7 +55,7 @@ const Contact = () => {
         <div className='w-full md:w-[48%] '>
           <label
             htmlFor='name'
-            className='block font-semibold  text-lg text-[#E55604]'
+            className='block font-semibold  text-lg  md:text-xl text-[#E55604]'
           >
             Name
           </label>
@@ -79,7 +79,7 @@ const Contact = () => {
         <div className='mt-8 md:mt-0 w-full md:w-[48%] '>
           <label
             htmlFor='email'
-            className='block font-semibold  text-lg text-[#E55604]'
+            className='block font-semibold  text-lg  md:text-xl text-[#E55604]'
           >
             Email
           </label>
@@ -104,7 +104,7 @@ const Contact = () => {
       <div className='mt-8 w-full'>
         <label
           htmlFor='message'
-          className='block font-semibold  text-lg text-[#E55604]'
+          className='block font-semibold  text-lg  md:text-xl text-[#E55604]'
         >
           Your Message
         </label>

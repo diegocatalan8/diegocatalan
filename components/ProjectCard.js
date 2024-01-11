@@ -15,11 +15,11 @@ const ProjectCard = ({info}) => {
             />
           </figure>
 
-          <h3 className='font-semibold text-xl text-[#26577C] mt-2'>
+          <h3 className='font-semibold text-lg  md:text-xl text-[#26577C] mt-2'>
             {info.name}
           </h3>
 
-          <p className='text-[#000] mt-2'>
+          <p className='text-[#000] text-[14px] md:text-[15px] mt-2'>
             {info.description}
           </p>
 
