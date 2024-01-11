@@ -9,7 +9,7 @@ const Skills = () => {
 
       <div className=' w-full flex flex-col md:flex-row items-center md:justify-between mt-2'>
         <section className='flex flex-col py-6 px-8  w-full mb-8 md:mb-0 md:w-[45%] h-[300px] rounded-lg border-2 border-solid border-[#B4B4B3] hover:border-[#26577C] hover:shadow-lg  '>
-          <h2 className='w-full text-left font-semibold text-xl mb-4 text-[#E55604]'>
+          <h2 className='w-full text-left font-semibold text-lg  md:text-xl mb-4 text-[#E55604]'>
             Frontend
           </h2>
           <div className='w-full flex-1 flex flex-row flex-wrap '>
@@ -48,10 +48,10 @@ const Skills = () => {
           </div>
         </section>
         <section className='flex flex-col py-6 px-8  w-full md:w-[45%] h-[300px] rounded-lg border-2 border-solid border-[#B4B4B3] hover:border-[#26577C] hover:shadow-lg  '>
-          <h2 className='w-full text-left font-semibold text-xl mb-4 text-[#E55604]'>
+          <h2 className='w-full text-left font-semibold text-lg  md:text-xl mb-4 text-[#E55604]'>
             Backend
           </h2>
-          <div className='w-full flex-1 flex flex-col'>
+          <div className='w-full flex-1 flex flex-col '>
             <div className='w-full h-[25%] flex flex-row'>
               <MdMilitaryTech className='mr-2 text-2xl text-[#26577C]' />
               <p>Node.js</p>

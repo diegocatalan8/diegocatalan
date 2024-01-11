@@ -24,14 +24,14 @@ const Experience = () => {
 
       <SectionTitle title={'Education'} iconName={'Education'}/>
 
-      <ProfessionalCard className={'mt-2'} image={UMG} alt={'UMG'} title='Mariano Gálvez University Of Guatemala' subtitle='Master Of Cybersecurity' year='Ene. 2024 - Present' link={'https://sistemas.umgedu.org/seguridad-informatica/'}/> 
-      <ProfessionalCard className={'mt-8'} image={UMG} alt={'UMG'} title='Mariano Gálvez University Of Guatemala' subtitle='Bachelor Of Information Systems Engineering and Computer Science' year='Ene. 2019 - Nov. 2023' link={'https://sistemas.umgedu.org/pregrado/'}/> 
+      <ProfessionalCard className={'mt-2'} image={UMG} alt={'UMG'} title='Mariano Gálvez University Of Guatemala' subtitle='Master Of Cybersecurity' year='Jan. 2024 - Present' link={'https://sistemas.umgedu.org/seguridad-informatica/'}/> 
+      <ProfessionalCard className={'mt-8'} image={UMG} alt={'UMG'} title='Mariano Gálvez University Of Guatemala' subtitle='Bachelor Of Information Systems Engineering and Computer Science' year='Jan. 2019 - Nov. 2023' link={'https://sistemas.umgedu.org/pregrado/'}/> 
       
   
       <SectionTitle className={'mt-8'} title={'Professional Experience'} iconName={'Work'}/>
     
 
-      <ProfessionalCard className={'mt-2'} image={CHILLTEPE} alt={'CHILLTEPE'} title='Chilltepe S.A.' subtitle='Frontend Developer' year='Dic. 2021 - Nov. 2023' onClickButton={openModal}/> 
+      <ProfessionalCard className={'mt-2'} image={CHILLTEPE} alt={'CHILLTEPE'} title='Chilltepe S.A.' subtitle='Frontend Developer' year='Dec. 2021 - Nov. 2023' onClickButton={openModal}/> 
         
 
       <Modal closeModal={closeModal} isModalOpen={isModalOpen}>

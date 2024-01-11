@@ -45,7 +45,7 @@ const Header = () => {
                             <Image className='w-full h-full rounded-full' src={diegopic} alt='Profile Picture'/>
                         </figure>
                         <p className='flex flex-col justify-center'>
-                            <span className='text-2xl font-semibold text-[#26577C]'>Diego Catalán</span>
+                            <span className='text-xl md:text-2xl font-semibold text-[#26577C]'>Diego Catalán</span>
                         </p>
                     </section>
 

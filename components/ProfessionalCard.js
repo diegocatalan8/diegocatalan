@@ -16,13 +16,13 @@ import Image from 'next/image';
         </div>
         <div className=' flex flex-col justify-between text-center md:text-left w-full md:w-[80%]'>
           
-          <h2 className='font-semibold  md:text-lg text-[#E55604]'>
+          <h2 className='font-semibold text-lg  md:text-xl text-[#E55604]'>
             {title}
           </h2>
-          <p className='font-semibold text-[12px] md:text-[14px] text-[#26577C]'>
+          <p className='font-semibold text-[14px] md:text-[15px] text-[#26577C]'>
             {subtitle}
           </p>
-          <p className='font-semibold text-[10px] md:text-[12px] text-[#000]'>
+          <p className=' text-[12px] md:text-[13px] text-[#000]'>
             {year}
           </p>
           
