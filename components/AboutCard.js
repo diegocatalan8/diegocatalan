@@ -19,7 +19,7 @@ import Button from './Button';
             
             <div className='flex flex-col justify-center h-[50%] w-full'>
                 <p className='text-4xl w-full my-2 font-bold text-[#26577C] text-center md:text-left'>Diego Catalán</p>
-                <p className='w-full text-xl mb-2 text-[#000] text-center md:text-left'>I am apassionate Full Stack Engineer.</p>
+                <p className='w-full text-[14px] md:text-[15px] mb-2 text-[#000] text-center md:text-left'>I am a full stack engineer focused on building quality software, specializing in Frontend development to create exceptional user interfaces.</p>
             </div>
             
             <div className='flex flex-row py-4  flex-wrap justify-center md:justify-start items-center w-full h-[50%]'>   

@@ -12,7 +12,7 @@ const Skills = () => {
           <h2 className='w-full text-left font-semibold text-lg  md:text-xl mb-4 text-[#E55604]'>
             Frontend
           </h2>
-          <div className=' text-[14px] md:text-[15px] w-full flex-1 flex flex-row flex-wrap '>
+          <div className='font-semibold text-[14px] md:text-[15px] w-full flex-1 flex flex-row flex-wrap '>
             <div className='w-[50%] h-[25%] flex flex-row'>
               <MdMilitaryTech className='mr-2 text-2xl text-[#26577C]' />
               <p>HTML5</p>
@@ -51,10 +51,14 @@ const Skills = () => {
           <h2 className='w-full text-left font-semibold text-lg  md:text-xl mb-4 text-[#E55604]'>
             Backend
           </h2>
-          <div className='text-[14px] md:text-[15px] w-full flex-1 flex flex-col '>
+          <div className='font-semibold text-[14px] md:text-[15px] w-full flex-1 flex flex-col '>
             <div className='w-full h-[25%] flex flex-row'>
               <MdMilitaryTech className='mr-2 text-2xl text-[#26577C]' />
               <p>Node.js</p>
+            </div>
+            <div className='w-full h-[25%] flex flex-row  '>
+              <MdMilitaryTech className='mr-2 text-2xl text-[#26577C]' />
+              <p>Express</p>
             </div>
             <div className='w-full h-[25%] flex flex-row  '>
               <MdMilitaryTech className='mr-2 text-2xl text-[#26577C]' />
@@ -63,10 +67,6 @@ const Skills = () => {
             <div className='w-full h-[25%] flex flex-row  '>
               <MdMilitaryTech className='mr-2 text-2xl text-[#26577C]' />
               <p>Postgresql</p>
-            </div>
-            <div className='w-full h-[25%] flex flex-row  '>
-              <MdMilitaryTech className='mr-2 text-2xl text-[#26577C]' />
-              <p>Express</p>
             </div>
           </div>
         </section>

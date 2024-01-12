@@ -22,7 +22,7 @@ import Image from 'next/image';
           <p className='font-semibold text-[14px] md:text-[15px] text-[#26577C]'>
             {subtitle}
           </p>
-          <p className='font-semibold text-[14px] md:text-[15px] text-[#000]'>
+          <p className='font-semibold  text-[14px] md:text-[15px] text-[#000]'>
             {year}
           </p>
           
