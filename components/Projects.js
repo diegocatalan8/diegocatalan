@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import ProjectCard from './ProjectCard';
-import Bistro from '@/public/bistro-pos.png';
+import Crypto from '@/public/cryptoprice.png';
 import CloiGT from '@/public/cloigt.png';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -22,8 +22,23 @@ const Projects = () => {
       linkToGithub: 'https://github.com/diegocatalan8/CLOi-GT',
       linkToDemo: 'https://cloi-gt.vercel.app',
       tech: [{nameIcon: 'Next.js', icon: 'Next',}, {nameIcon: 'React.js', icon:'React',}, {nameIcon:'Bootstrap', icon:'Bootstrap',}, {nameIcon:'Postres', icon:'Postgres',}],
-      demo: true
 
+    },
+
+    {
+
+      id:2,
+      className: '',
+      alt: 'Top 100 Crypto',
+      name: 'Top 100 Crypto',
+      description: 'User-friendly cryptocurrency search engine that provides real-time information on the top 100 cryptocurrencies.',
+      demo: true,
+      bgFigure:'bg-[#141414]',
+      image: Crypto,
+      linkToGithub: 'https://github.com/diegocatalan8/cryptoprice',
+      linkToDemo: 'https://cryptoprice-nine.vercel.app/',
+      tech: [{nameIcon: 'HTML', icon: 'Html',}, {nameIcon: 'CSS', icon:'Css',}, {nameIcon:'Bootstrap', icon:'Bootstrap',}, {nameIcon:'React.js', icon:'React',}],
+    
     },
 
   
