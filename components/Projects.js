@@ -37,7 +37,7 @@ const Projects = () => {
       image: Crypto,
       linkToGithub: 'https://github.com/diegocatalan8/cryptoprice',
       linkToDemo: 'https://cryptoprice-nine.vercel.app/',
-      tech: [{nameIcon: 'HTML', icon: 'Html',}, {nameIcon: 'CSS', icon:'Css',}, {nameIcon:'Bootstrap', icon:'Bootstrap',}, {nameIcon:'React.js', icon:'React',}],
+      tech: [{nameIcon: 'HTML', icon: 'Html',}, {nameIcon: 'CSS', icon:'Css',}, {nameIcon: 'Javascript', icon:'Js',}, {nameIcon:'Bootstrap', icon:'Bootstrap',}, {nameIcon:'React.js', icon:'React',}],
     
     },
 
